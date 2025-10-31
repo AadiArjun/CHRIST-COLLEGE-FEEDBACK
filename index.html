@@ -1,80 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Christ College Vizhinjam – Feedback Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christ College Vizhinjam - Feedback Portal</title>
   <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background: linear-gradient(to bottom right, #eef3f7, #d9e7ff);
-      text-align: center;
-      color: #333;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
     }
-    header {
-      background: #0b5ed7;
-      color: white;
-      padding: 20px 0;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    }
-    h1 { margin: 0; }
-    h2 { color: #333; margin-top: 25px; font-weight: 500; }
-    .button-container {
-      margin: 30px auto;
+
+    body {
+      background: linear-gradient(135deg, #f0f4ff, #e8f0ff);
+      color: #222;
+      text-align: center;
       display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 28px;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #003366;
+      margin-bottom: 30px;
+    }
+
+    .button-container {
+      display: flex;
       flex-wrap: wrap;
       gap: 20px;
-      max-width: 800px;
+      justify-content: center;
     }
+
     .btn {
-      background: #0b5ed7;
+      display: inline-block;
+      background: #0055a5;
       color: white;
-      padding: 14px 30px;
-      border: none;
-      border-radius: 10px;
+      padding: 14px 28px;
+      border-radius: 6px;
       text-decoration: none;
-      font-size: 17px;
-      font-weight: 500;
-      transition: 0.3s;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      font-size: 16px;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
     }
+
     .btn:hover {
-      background: #063a91;
-      transform: scale(1.05);
+      background: #0073e6;
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0, 115, 230, 0.4);
     }
+
     footer {
-      background: #e9ecef;
+      background: #003366;
+      color: #ddd;
+      text-align: center;
       padding: 12px;
       font-size: 14px;
-      margin-top: 40px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Christ College, Vizhinjam</h1>
-    <p>Feedback & Evaluation Portal – Academic Year 2025–26</p>
+    <h1>Christ College Vizhinjam - Feedback Portal</h1>
   </header>
 
-  <h2>Select a Cell or Department</h2>
-
-  <div class="button-container">
-
-
-  <h2>Select a Cell or Department</h2>
-
-  <div class="button-container">
-    <a href="https://script.google.com/macros/s/AKfycbzc311gfY4lSZ2NZKmtF6x62wzSbfT1ECFj7AkPmMi1_yMuOkuOpUB_dIbj9Z6Y-Oe5Yg/exec" class="btn">📘 Exam Cell</a>
-    <a href="https://script.google.com/macros/s/AKfycbxWnjWJG3_CrzWd9O7VE6IY3yCqZgLv4aWUkrKZPjqmd0ddXPvIHR75TCASdITX284K/exec" class="btn">📗 SLEC</a>
-    <a href="https://https://script.google.com/macros/s/AKfycbxDzrF29HEjUEPVuS21wcA9_sCRF2591tOUa9ZZmLicLKBMEwr3lqQ-lEwgeSmZzd5v/exec" class="btn">📙 TLEC</a>
-    <a href="https://script.google.com/macros/s/AKfycbxZKnPO_ytq_SPEBVQkK-YIHZyF43pJEmOd27VFETg1zNxbUWJRW9UFeajK6qf4oIOi-Q/exec" class="btn">📕 IQAC</a>
-    <a href="https://script.google.com/macros/s/AKfycbzlUjrtQlrGtgP0POwS-zeJyxtmc3C0FpXMRuv5qk1C2cLfB_l7TgRE4IhFzC0RyJy1kQ/exec" class="btn">💻 Student Feedback</a>
-  </div>
+  <main>
+    <h2>Select a Cell or Department</h2>
+    <div class="button-container">
+      <a href="https://script.google.com/macros/s/AKfycbzc311gfY4lSZ2NZKmtF6x62wzSbfT1ECFj7AkPmMi1_yMuOkuOpUB_dIbj9Z6Y-Oe5Yg/exec" class="btn">📘 Exam Cell</a>
+      <a href="https://script.google.com/macros/s/AKfycbxWnjWJG3_CrzWd9O7VE6IY3yCqZgLv4aWUkrKZPjqmd0ddXPvIHR75TCASdITX284K/exec" class="btn">📗 SLEC</a>
+      <a href="https://script.google.com/macros/s/AKfycbxDzrF29HEjUEPVuS21wcA9_sCRF2591tOUa9ZZmLicLKBMEwr3lqQ-lEwgeSmZzd5v/exec" class="btn">📙 TLEC</a>
+      <a href="https://script.google.com/macros/s/AKfycbxZKnPO_ytq_SPEBVQkK-YIHZyF43pJEmOd27VFETg1zNxbUWJRW9UFeajK6qf4oIOi-Q/exec" class="btn">📕 IQAC</a>
+      <a href="https://script.google.com/macros/s/AKfycbzlUjrtQlrGtgP0POwS-zeJyxtmc3C0FpXMRuv5qk1C2cLfB_l7TgRE4IhFzC0RyJy1kQ/exec" class="btn">💻 Student Feedback</a>
+    </div>
+  </main>
 
   <footer>
-    © 2025 Christ College, Vizhinjam | Developed by Sreelekshmi S L
+    © 2025 Christ College, Vizhinjam | Developed by <a href="#">Sreelekshmi S L</a>
   </footer>
 </body>
 </html>
+
