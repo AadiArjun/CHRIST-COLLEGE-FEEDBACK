@@ -14,50 +14,49 @@
 
     
       body {
-        <div style="background: rgba(255,255,255,0.80); min-height:100vh; padding-bottom:50px;">
+        <body>
+<div class="overlay">
+
+      body {
+    margin: 0;
+    padding: 0;
     font-family: "Segoe UI", sans-serif;
     background: url('colg.jpg') no-repeat center center fixed;
     background-size: cover;
-    margin: 0;
-    padding: 0;
 }
 
-    }
+.overlay {
+    background: rgba(255,255,255,0.82);
+    min-height: 100vh;
+    width: 100%;
+    padding-bottom: 40px;
+}
 
-    header {
-      background: #003366;
-      color: white;
-      padding: 20px 10px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    }
+header {
+    background: rgba(0,53,128,0.90);
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    font-size: 32px;
+    font-weight:700;
+    letter-spacing:1px;
+}
 
-    header h1 {
-      font-size: 28px;
-      letter-spacing: 0.5px;
-      font-weight: 600;
-    }
+.subtitle {
+    text-align:center;
+    margin-top:15px;
+    font-size:20px;
+    font-weight:600;
+    color:#002147;
+}
 
-    main {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 50px 20px;
-    }
-
-    h2 {
-      font-size: 22px;
-      color: #003366;
-      margin-bottom: 30px;
-    }
-
-    .button-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
+.button-container {
+    margin-top:35px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:22px;
+}
 
     .btn {
       display: inline-block;
@@ -96,9 +95,9 @@
   </style>
 </head>
 <body>
-  <header>
-    <h1>Christ College Vizhinjam - Feedback Portal</h1>
-  </header>
+  <header>Christ College Vizhinjam – Feedback Portal</header>
+<p class="subtitle">Select a Cell or Department</p>
+
 
   <main>
     <h2>Select a Cell or Department</h2>
