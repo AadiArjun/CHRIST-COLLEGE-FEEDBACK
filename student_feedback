@@ -1,0 +1,12 @@
+<h2>Select Department</h2>
+<div class="button-container">
+  <a href="english.html" class="btn">BA English</a>
+  <a href="bca.html" class="btn">BCA</a>
+  <a href="bba.html" class="btn">BBA</a>
+  <a href="bsw.html" class="btn">BSW</a>
+  <a href="psychology.html" class="btn">Psychology</a>
+  <a href="tourism.html" class="btn">Tourism</a>
+  <a href="finance.html" class="btn">Finance & Tax</a>
+  <a href="malayalam.html" class="btn">Malayalam</a>
+  <a href="hindi.html" class="btn">Hindi</a>
+</div>
