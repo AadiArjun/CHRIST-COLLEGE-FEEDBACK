@@ -1,7 +1,33 @@
-<h2>Select Semester - BA English</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<title>BA English - Semester 5 Feedback</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="button-container">
-  <a href="#" class="btn disabled">Semester 1 (Not Activated)</a>
-  <a href="#" class="btn disabled">Semester 3 (Not Activated)</a>
-  <a href="https://script.google.com/macros/s/AKfycbwdWRyEK7sxc0XscWg-LG-Ltm0D23ZSA-ITpa0VJA0Y-wHl1ITeg2F4WvfO3L5glERbXA/exec" class="btn">Semester 5</a>
-</div>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f3f6fc;
+    text-align:center;
+    padding-top:60px;
+}
+.btn{
+    display:inline-block;
+    background:#004aad;
+    padding:16px 30px;
+    color:white;
+    text-decoration:none;
+    border-radius:14px;
+    font-size:20px;
+}
+</style>
+</head>
+<body>
+
+<h2>BA English - Semester 5</h2>
+<p>Click below to start the Feedback Evaluation</p>
+
+<a class="btn" href="https://script.google.com/macros/s/AKfycbwdWRyEK7sxc0XscWg-LG-Ltm0D23ZSA-ITpa0VJA0Y-wHl1ITeg2F4WvfO3L5glERbXA/exec" target="_blank">Start Feedback</a>
+
+</body>
+</html>
