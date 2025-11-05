@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>BCA Department - Select Semester</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f3f6fc;
+    text-align:center;
+    padding-top:40px;
+}
+h2{
+    margin-bottom:25px;
+}
+.btn{
+    display:block;
+    width:240px;
+    margin:12px auto;
+    padding:15px;
+    text-decoration:none;
+    background:#004aad;
+    color:white;
+    border-radius:14px;
+    font-size:18px;
+}
+.btn:hover{
+    background:#003780;
+}
+</style>
+</head>
+<body>
+
+<h2>BCA- Select Semester</h2>
+
+<a href="BCA-sem-1.html" class="btn">Semester 1</a>
+<a href="BCA-sem-3.html" class="btn">Semester 3</a>
+<a href="https://script.google.com/macros/s/AKfycbzyX5C_kr1ScV6z7aMErUpNDaOW_iX7lpyNDxWarMQq1d5WuZdXTJjp6sGJ-__pT3WoVw/exec class="btn">Semester 5</a>
+
+
+</body>
+</html>
